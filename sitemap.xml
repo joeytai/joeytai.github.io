@@ -52,6 +52,10 @@
   </url>
   
   <url>
+    <loc>https://joeytai.github.io/content/post/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://joeytai.github.io/categories/</loc>
     <priority>0</priority>
   </url>
