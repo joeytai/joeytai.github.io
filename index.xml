@@ -6,10 +6,19 @@
     <description>Recent content in Hugo XMag on Fan Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jan 2019 20:59:05 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://joeytai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo不完全指南</title>
+      <link>https://joeytai.github.io/post/2019/01/15/hugo%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2019/01/15/hugo%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</guid>
+      <description>从 1 月份开始折腾博客也快一个月了，博客的渲染引擎也从 Hexo 换到了 Hugo，因为第一次体会到了 Go 语言速度的快感和无依赖性的便利。 博客的主题基于xm</description>
+    </item>
     
     <item>
       <title>Test</title>
@@ -18,6 +27,15 @@
       
       <guid>https://joeytai.github.io/post/2019/01/08/test/</guid>
       <description>Hello Hugo!</description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://joeytai.github.io/post/2019/01/07/data-science/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2019/01/07/data-science/</guid>
+      <description>  2. 3.  https://github.com/CME211/notes  </description>
     </item>
     
     <item>
