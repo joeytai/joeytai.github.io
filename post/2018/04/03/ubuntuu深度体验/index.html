@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Ubuntuu深度体验 | Fan Yang</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+
+  </head>
+
+  <body class="page">
+    <nav class="header">
+      <div class="banner">
+<a href="/" class="text">
+&Ffr;&Afr;&Nfr; &Yfr;&Afr;&Nfr;&Gfr;
+</a>
+</div>
+
+      <div class="head-meta">
+      
+        <span><a href="/">&larr; Back to Home</a></span>
+        <span class="date">2018-04-03</span>
+        
+        
+        
+          
+        
+        
+        
+        <span><a href="https://github.com/yihui/hugo-xmag/edit/master/exampleSite/content/post/Ubuntuu%e6%b7%b1%e5%ba%a6%e4%bd%93%e9%aa%8c.md">Edit this page &rarr;</a></span>
+        
+        
+      
+      </div>
+    </nav>
+
+<div class="container">
+<article>
+<div class="article-meta">
+
+  <div class="categories">
+  
+  </div>
+
+  <h1><span class="title">Ubuntuu深度体验</span></h1>
+
+  
+
+  
+  
+
+</div>
+
+
+
+<main>
+
+
+<h3 id="ubuntu下dr-com的安装">Ubuntu下Dr.com的安装</h3>
+
+<p>先上一张美化之后的图</p>
+
+<p><img src="https://i.loli.net/2018/03/19/5aafcc6a0a2cb.png" alt="2018-03-19 22-39-42 的屏幕截图.png" /></p>
+
+<p>在安装Deepin的截图工具的时候也踩了不少坑，通过Re[3]得到解决，</p>
+
+<pre><code class="language-shell">conda install -c ska pygtk 
+</code></pre>
+
+<p>Anaconda给出了替代选项</p>
+
+<pre><code class="language-shell">The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pycairo-1.8.8              |                0          84 KB  ska
+    pygtk-2.16.0               |                0         3.2 MB  ska
+    pygobject-2.20.0           |                0         670 KB  ska
+    atk-1.28.0                 |                0         359 KB  ska
+    gtk-plus-2.18.3            |                0        13.5 MB  ska
+    ------------------------------------------------------------
+                                           Total:        17.8 MB
+
+</code></pre>
+
+<pre><code class="language-shell">sudo add-apt-repository ppa:shutter/ppa
+sudo apt-get update
+sudo apt-get install shutter
+</code></pre>
+
+<h3 id="k坑爹的dr-com哆点">k坑爹的Dr.com哆点</h3>
+
+<p>哆点客户端在Linux系统下只有32位的包，这就让人很不爽，我的Ubuntu是64位的，根本无法运行，几经查询(折腾),终于通过Dr.com连上了网.
+首先在学校官网下载Dr.com哆点的Linux包，然后解压，这是解压之后的结果</p>
+
+<pre><code class="language-shell"> cd '/home/kaiser/下载/051640340k8k/DrClient'
+ ldd DrClientLinux(查看你的Linux，我的是Ubuntu环境下执行DrClientLinux所缺少的依赖)
+
+</code></pre>
+
+<p>这是所有依赖安装好之后的提示：</p>
+
+<pre><code class="language-shell">linux-gate.so.1 =&gt;  (0xf7f19000)
+	libSM.so.6 =&gt; /usr/lib/i386-linux-gnu/libSM.so.6 (0xf7eef000)
+	libICE.so.6 =&gt; /usr/lib/i386-linux-gnu/libICE.so.6 (0xf7ed3000)
+	libXi.so.6 =&gt; /usr/lib/i386-linux-gnu/libXi.so.6 (0xf7ec0000)
+	libXrender.so.1 =&gt; /usr/lib/i386-linux-gnu/libXrender.so.1 (0xf7eb4000)
+	libXrandr.so.2 =&gt; /usr/lib/i386-linux-gnu/libXrandr.so.2 (0xf7ea7000)
+	libXcursor.so.1 =&gt; /usr/lib/i386-linux-gnu/libXcursor.so.1 (0xf7e9b000)
+	libXinerama.so.1 =&gt; /usr/lib/i386-linux-gnu/libXinerama.so.1 (0xf7e97000)
+	libfreetype.so.6 =&gt; /usr/lib/i386-linux-gnu/libfreetype.so.6 (0xf7ddb000)
+	libfontconfig.so.1 =&gt; /usr/lib/i386-linux-gnu/libfontconfig.so.1 (0xf7d92000)
+	libXext.so.6 =&gt; /usr/lib/i386-linux-gnu/libXext.so.6 (0xf7d7d000)
+	libX11.so.6 =&gt; /usr/lib/i386-linux-gnu/libX11.so.6 (0xf7c30000)
+	libz.so.1 =&gt; /lib/i386-linux-gnu/libz.so.1 (0xf7c11000)
+	librt.so.1 =&gt; /lib/i386-linux-gnu/librt.so.1 (0xf7c07000)
+	libdl.so.2 =&gt; /lib/i386-linux-gnu/libdl.so.2 (0xf7c02000)
+	libpthread.so.0 =&gt; /lib/i386-linux-gnu/libpthread.so.0 (0xf7be3000)
+	libstdc++.so.6 =&gt; /usr/lib/i386-linux-gnu/libstdc++.so.6 (0xf7a5f000)
+	libm.so.6 =&gt; /lib/i386-linux-gnu/libm.so.6 (0xf7960000)
+	libgcc_s.so.1 =&gt; /lib/i386-linux-gnu/libgcc_s.so.1 (0xf7943000)
+	libc.so.6 =&gt; /lib/i386-linux-gnu/libc.so.6 (0xf776d000)
+	libuuid.so.1 =&gt; /lib/i386-linux-gnu/libuuid.so.1 (0xf7767000)
+	libbsd.so.0 =&gt; /lib/i386-linux-gnu/libbsd.so.0 (0xf774c000)
+	libXfixes.so.3 =&gt; /usr/lib/i386-linux-gnu/libXfixes.so.3 (0xf7743000)
+	libpng16.so.16 =&gt; /usr/lib/i386-linux-gnu/libpng16.so.16 (0xf7709000)
+	libexpat.so.1 =&gt; /lib/i386-linux-gnu/libexpat.so.1 (0xf76de000)
+	libxcb.so.1 =&gt; /usr/lib/i386-linux-gnu/libxcb.so.1 (0xf76b2000)
+	/lib/ld-linux.so.2 (0xf7f1b000)
+	libXau.so.6 =&gt; /usr/lib/i386-linux-gnu/libXau.so.6 (0xf76ae000)
+
+</code></pre>
+
+<h3 id="reference">Reference:</h3>
+
+<p>[1]. <a href="https://www.jianshu.com/p/4bd2d9b1af41">https://www.jianshu.com/p/4bd2d9b1af41</a></p>
+
+<p>[2]. <a href="https://www.jianshu.com/p/6f9eee3e3d2e">https://www.jianshu.com/p/6f9eee3e3d2e</a></p>
+
+<p>[3]. <a href="http://blog.csdn.net/hhl525607924/article/details/78901794">http://blog.csdn.net/hhl525607924/article/details/78901794</a></p>
+
+<hr />
+
+<ul>
+<li>2018年3月20日</li>
+</ul>
+
+<p><a href="https://bjbgp01.baidupcs.com/file/92493f114fddda2676fdd29feee3f4e5?bkt=p3-00006a90c3c9eb0c89ae023bed18d636664f&amp;fid=791960065-250528-562182209293151&amp;time=1535643638&amp;sign=FDTAXGERLQBHSKWa-DCb740ccc5511e5e8fedcff06b081203-1%2FJWDd6%2BuEGCNvPwAHWkTeQyxGY%3D&amp;to=75&amp;size=1081251755&amp;sta_dx=1081251755&amp;sta_cs=0&amp;sta_ft=gz&amp;sta_ct=7&amp;sta_mt=7&amp;fm2=MH%2CYangquan%2CAnywhere%2C%2Cshanxi2%2Cctt&amp;resv0=cdnback&amp;resv1=0&amp;vuk=791960065&amp;iv=0&amp;htype=&amp;newver=1&amp;newfm=1&amp;secfm=1&amp;flow_ver=3&amp;pkey=00006a90c3c9eb0c89ae023bed18d636664f&amp;sl=76480590&amp;expires=8h&amp;rt=sh&amp;r=445690784&amp;mlogid=5612349689858130443&amp;vbdid=4040403031&amp;fin=zhidata.sql.gz&amp;fn=zhidata.sql.gz&amp;rtype=1&amp;dp-logid=5612349689858130443&amp;dp-callid=0.1.1&amp;hps=1&amp;tsl=80&amp;csl=80&amp;csign=gwqJmy%2BRWXZA7OJ%2BBykJOTakugA%3D&amp;so=0&amp;ut=6&amp;uter=4&amp;serv=0&amp;uc=2443683205&amp;ti=26fa64dbec2882243c1a727eec0f4aea39ccaafd25532f28305a5e1275657320&amp;by=themis">https://bjbgp01.baidupcs.com/file/92493f114fddda2676fdd29feee3f4e5?bkt=p3-00006a90c3c9eb0c89ae023bed18d636664f&amp;fid=791960065-250528-562182209293151&amp;time=1535643638&amp;sign=FDTAXGERLQBHSKWa-DCb740ccc5511e5e8fedcff06b081203-1%2FJWDd6%2BuEGCNvPwAHWkTeQyxGY%3D&amp;to=75&amp;size=1081251755&amp;sta_dx=1081251755&amp;sta_cs=0&amp;sta_ft=gz&amp;sta_ct=7&amp;sta_mt=7&amp;fm2=MH%2CYangquan%2CAnywhere%2C%2Cshanxi2%2Cctt&amp;resv0=cdnback&amp;resv1=0&amp;vuk=791960065&amp;iv=0&amp;htype=&amp;newver=1&amp;newfm=1&amp;secfm=1&amp;flow_ver=3&amp;pkey=00006a90c3c9eb0c89ae023bed18d636664f&amp;sl=76480590&amp;expires=8h&amp;rt=sh&amp;r=445690784&amp;mlogid=5612349689858130443&amp;vbdid=4040403031&amp;fin=zhidata.sql.gz&amp;fn=zhidata.sql.gz&amp;rtype=1&amp;dp-logid=5612349689858130443&amp;dp-callid=0.1.1&amp;hps=1&amp;tsl=80&amp;csl=80&amp;csign=gwqJmy%2BRWXZA7OJ%2BBykJOTakugA%3D&amp;so=0&amp;ut=6&amp;uter=4&amp;serv=0&amp;uc=2443683205&amp;ti=26fa64dbec2882243c1a727eec0f4aea39ccaafd25532f28305a5e1275657320&amp;by=themis</a></p>
+
+</main>
+
+
+
+
+
+<nav class="post-nav">
+  <span class="nav-prev"><a href="/post/2018/04/03/%E4%BC%98%E8%B4%A8%E4%BF%A1%E6%81%AF%E6%BA%90/">&larr; 优质信息源</a></span>
+  <span class="nav-next"><a href="/post/2018/04/03/hexo%E6%8D%A2%E7%94%B5%E8%84%91%E7%9A%84%E9%BA%BB%E7%83%A6/">hexo换电脑的麻烦 &rarr;</a></span>
+</nav>
+
+
+
+</article>
+</div>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+<footer>
+
+<div class="footer">
+  <ul class="menu">
+    
+    <li><a href="/"><span data-hover="Home">Home</span></a></li>
+    
+    <li><a href="/about/"><span data-hover="About">About</span></a></li>
+    
+    <li><a href="/categories/"><span data-hover="Categories">Categories</span></a></li>
+    
+    <li><a href="/tags/"><span data-hover="Tags">Tags</span></a></li>
+    
+    <li><a href="/index.xml"><span data-hover="Subscribe">Subscribe</span></a></li>
+    
+  </ul>
+  
+  <div class="copyright">&copy; <a href="https://joeytai.github.io">Fan Yang</a> 2019 | <a href="https://github.com/joeytai">Github</a> | <a href="https://twitter.com/CaesarMatrix">Twitter</a></div>
+  
+</div>
+</footer>
+
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script>
+hljs.configure({languages: []});
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+</body>
+</html>
+

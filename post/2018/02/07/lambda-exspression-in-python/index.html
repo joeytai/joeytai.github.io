@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Lambda Exspression in Python | Fan Yang</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+
+  </head>
+
+  <body class="page">
+    <nav class="header">
+      <div class="banner">
+<a href="/" class="text">
+&Ffr;&Afr;&Nfr; &Yfr;&Afr;&Nfr;&Gfr;
+</a>
+</div>
+
+      <div class="head-meta">
+      
+        <span><a href="/">&larr; Back to Home</a></span>
+        <span class="date">2018-02-07</span>
+        
+        
+        
+          
+        
+        
+        
+        <span><a href="https://github.com/yihui/hugo-xmag/edit/master/exampleSite/content/post/Lambda-Exspression-in-Python.md">Edit this page &rarr;</a></span>
+        
+        
+      
+      </div>
+    </nav>
+
+<div class="container">
+<article>
+<div class="article-meta">
+
+  <div class="categories">
+  
+  </div>
+
+  <h1><span class="title">Lambda Exspression in Python</span></h1>
+
+  
+
+  
+  
+
+</div>
+
+
+
+<main>
+
+
+<h1 id="lambda-exspression-in-python">Lambda Exspression in Python</h1>
+
+<pre><code class="language-python">import time
+start = time.clock()
+fib=lambda n,x=0,y=1:x if not n else fib(n-1,y,x+y)
+print (fib(20))
+end = time.clock()
+print (&quot;read: %f s&quot; % (end - start))
+v1 = end - start
+</code></pre>
+
+<pre><code>6765
+read: 0.000352 s
+</code></pre>
+
+<pre><code class="language-python">import time
+start = time.clock()
+fib = lambda n : 1 if n &lt;= 2 else fib(n-1) + fib(n-2)
+print (fib(20))
+end = time.clock()
+print (&quot;read: %f s&quot; % (end - start))
+v2 = end - start
+</code></pre>
+
+<pre><code>6765
+read: 0.004993 s
+</code></pre>
+
+<pre><code class="language-python">print (v2 / v1)
+</code></pre>
+
+<pre><code>14.169902911869626
+</code></pre>
+
+<p>​</p>
+
+<pre><code class="language-python">def times(x, y):
+    return x*y
+times(2, 4)
+</code></pre>
+
+<pre><code>8
+</code></pre>
+
+<pre><code class="language-python">times('Python', 4)
+</code></pre>
+
+<pre><code>'PythonPythonPythonPython'
+</code></pre>
+
+<pre><code class="language-python">def intersect(s1, s2):
+    return [x for x in s1 if x in s2]
+s1 = 'Python'
+s2 = 'python'
+intersect(s1, s2)
+</code></pre>
+
+<pre><code>['y', 't', 'h', 'o', 'n']
+</code></pre>
+
+<pre><code class="language-python">intersect([1, 2, 3], (1, 4))
+</code></pre>
+
+<pre><code>[1]
+</code></pre>
+
+<pre><code class="language-python">def fib(num):
+    result = [0, 1]
+    for i in range(num-2):
+        result.append(result[-2] + result[-1])
+        print (result[-2], result[-1])
+    return result
+print (fib(15))
+</code></pre>
+
+<pre><code>1 1
+1 2
+2 3
+3 5
+5 8
+8 13
+13 21
+21 34
+34 55
+55 89
+89 144
+144 233
+233 377
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377]
+</code></pre>
+
+<pre><code class="language-python"> import time
+start = time.clock()
+def fib(n):
+    if n &lt;= 2: return 1
+    else:
+        return fib(n-1) + fib(n-2)
+print (fib(20))
+end = time.clock()
+print (&quot;read: %f s&quot; % (end - start))
+</code></pre>
+
+<pre><code>6765
+read: 0.004619 s
+</code></pre>
+
+<pre><code class="language-python">start = time.clock()
+def fib(n):
+    return n &lt;= 2 and 1 or fib(n - 1) + fib(n - 2)
+print (fib(20))
+end = time.clock()
+print (&quot;read: %f s&quot; % (end - start))
+</code></pre>
+
+<pre><code>6765
+read: 0.002924 s
+</code></pre>
+
+<h3 id="reference">Reference</h3>
+
+<p>[1] <a href="https://docs.python.org/3/reference/expressions.html">https://docs.python.org/3/reference/expressions.html</a>
+[2]<a href="https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb#4.-Using-Markdown-Cells-for-Writing">https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb#4.-Using-Markdown-Cells-for-Writing</a>
+[3]<a href="https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb">https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb</a></p>
+
+<p>[4]<a href="https://medium.com/@happymishra66/lambda-map-and-filter-in-python-4935f248593">https://medium.com/@happymishra66/lambda-map-and-filter-in-python-4935f248593</a></p>
+
+<p>[5]<a href="https://www.python.org/dev/peps/pep-0312/">https://www.python.org/dev/peps/pep-0312/</a></p>
+
+<p>[6]<a href="https://medium.com/ibm-data-science-experience/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed">https://medium.com/ibm-data-science-experience/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed</a></p>
+
+<p>[7]<a href="http://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html">http://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html</a></p>
+
+<p>[8]<a href="https://www.joinquant.com/research?url=%2Fdefault%2Fresearch%2Fredirect%3Fnext%3D%252Fuser%252F37886855373%252Fclone_url%253Ffilename%253DPython%2525E7%2525A7%252591%2525E5%2525AD%2525A6%2525E8%2525AE%2525A1%2525E7%2525AE%252597%2525EF%2525BC%2525883%2525EF%2525BC%252589-%252Bpandas%2525E5%2525BA%252593%2525E4%2525B9%25258B%2525E6%252595%2525B0%2525E6%25258D%2525AE%2525E5%2525A4%252584%2525E7%252590%252586%2525E4%2525B8%25258E%2525E8%2525A7%252584%2525E6%252595%2525B4.ipynb%2526url%253Dhttps%25253A%25252F%25252Ffile.joinquant.com%25252Fresearch%25252Fusers%25252F38133103197%25252Fshare2%25252F71b96d42d388d94964d5553828956be9.html">https://www.joinquant.com/research?url=%2Fdefault%2Fresearch%2Fredirect%3Fnext%3D%252Fuser%252F37886855373%252Fclone_url%253Ffilename%253DPython%2525E7%2525A7%252591%2525E5%2525AD%2525A6%2525E8%2525AE%2525A1%2525E7%2525AE%252597%2525EF%2525BC%2525883%2525EF%2525BC%252589-%252Bpandas%2525E5%2525BA%252593%2525E4%2525B9%25258B%2525E6%252595%2525B0%2525E6%25258D%2525AE%2525E5%2525A4%252584%2525E7%252590%252586%2525E4%2525B8%25258E%2525E8%2525A7%252584%2525E6%252595%2525B4.ipynb%2526url%253Dhttps%25253A%25252F%25252Ffile.joinquant.com%25252Fresearch%25252Fusers%25252F38133103197%25252Fshare2%25252F71b96d42d388d94964d5553828956be9.html</a>
+[9]<a href="https://www.joinquant.com/post/fde3d99942fc3322d37196ddaff6dece?f=stydy&amp;m=python">https://www.joinquant.com/post/fde3d99942fc3322d37196ddaff6dece?f=stydy&amp;m=python</a></p>
+
+<hr />
+
+<h3 id="更新日志">更新日志</h3>
+
+<ul>
+<li>2018年2月7日 写出全文，并发布</li>
+</ul>
+
+</main>
+
+
+
+
+
+<nav class="post-nav">
+  <span class="nav-prev"><a href="/post/2018/02/07/%E5%89%A7%E9%9B%86%E6%8E%A8%E8%8D%90/">&larr; 剧集推荐</a></span>
+  <span class="nav-next"><a href="/post/2018/02/06/%E5%88%A9%E5%99%A8/">利器 &rarr;</a></span>
+</nav>
+
+
+
+</article>
+</div>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+<footer>
+
+<div class="footer">
+  <ul class="menu">
+    
+    <li><a href="/"><span data-hover="Home">Home</span></a></li>
+    
+    <li><a href="/about/"><span data-hover="About">About</span></a></li>
+    
+    <li><a href="/categories/"><span data-hover="Categories">Categories</span></a></li>
+    
+    <li><a href="/tags/"><span data-hover="Tags">Tags</span></a></li>
+    
+    <li><a href="/index.xml"><span data-hover="Subscribe">Subscribe</span></a></li>
+    
+  </ul>
+  
+  <div class="copyright">&copy; <a href="https://joeytai.github.io">Fan Yang</a> 2019 | <a href="https://github.com/joeytai">Github</a> | <a href="https://twitter.com/CaesarMatrix">Twitter</a></div>
+  
+</div>
+</footer>
+
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script>
+hljs.configure({languages: []});
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+</body>
+</html>
+

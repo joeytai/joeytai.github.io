@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>git学习笔记 | Fan Yang</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+
+  </head>
+
+  <body class="page">
+    <nav class="header">
+      <div class="banner">
+<a href="/" class="text">
+&Ffr;&Afr;&Nfr; &Yfr;&Afr;&Nfr;&Gfr;
+</a>
+</div>
+
+      <div class="head-meta">
+      
+        <span><a href="/">&larr; Back to Home</a></span>
+        <span class="date">2018-04-03</span>
+        
+        
+        
+          
+        
+        
+        
+        <span><a href="https://github.com/yihui/hugo-xmag/edit/master/exampleSite/content/post/git%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0.md">Edit this page &rarr;</a></span>
+        
+        
+      
+      </div>
+    </nav>
+
+<div class="container">
+<article>
+<div class="article-meta">
+
+  <div class="categories">
+  
+  </div>
+
+  <h1><span class="title">git学习笔记</span></h1>
+
+  
+
+  
+  
+
+</div>
+
+
+
+<main>
+
+
+<h3 id="解决-git-pull-push-每次都需要输入密码问题">解决<code>git pull/push</code>每次都需要输入密码问题</h3>
+
+<p>如果我们<code>git clone</code>的下载代码的时候是连接的https://而不是git@git (ssh)的形式，当我们操作<code>git pull/push</code>到远程的时候，总是提示我们输入账号和密码才能操作成功，频繁的输入账号和密码会很麻烦。
+解决办法：</p>
+
+<p><code>git bash</code>进入你的项目目录，输入：
+<code>git config --global credential.helper store</code></p>
+
+<p>然后你会在你本地生成一个文本，上边记录你的账号和密码。当然这些你可以不用关心。
+然后你使用上述的命令配置好之后，再操作一次git pull，然后它会提示你输入账号密码，这一次之后就不需要再次输入密码了。</p>
+
+<p>以上转载自：解决<code>git pull/push</code>每次都需要输入密码问题</p>
+
+<p>无论是用编辑器<code>pull或者push</code>还是在<code>git bash里pull或push</code>，每次都需要输入密码，上述代码经测试，在一个工程里用过，在其他工程内同样生效。无论你是哪种方式pull或push代码都不用输入账号密码了</p>
+
+<h3 id="reference">Reference:</h3>
+
+<p>[1].<a href="http://blog.csdn.net/sinat_20177327/article/details/76062030">http://blog.csdn.net/sinat_20177327/article/details/76062030</a></p>
+
+<p>[2].<a href="http://blog.csdn.net/tompiking/article/details/53009080">http://blog.csdn.net/tompiking/article/details/53009080</a></p>
+
+<p>[3].<a href="https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8">https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E7%9A%84%E4%BD%BF%E7%94%A8</a></p>
+
+<p>[4].<a href="https://github.com/yonyouyc/blog/issues/6">https://github.com/yonyouyc/blog/issues/6</a></p>
+
+</main>
+
+
+
+
+
+<nav class="post-nav">
+  <span class="nav-prev"><a href="/post/2018/04/03/hexo%E6%8D%A2%E7%94%B5%E8%84%91%E7%9A%84%E9%BA%BB%E7%83%A6/">&larr; hexo换电脑的麻烦</a></span>
+  <span class="nav-next"><a href="/post/2018/03/04/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%BC%AB%E8%B0%88/">云服务器漫谈 &rarr;</a></span>
+</nav>
+
+
+
+</article>
+</div>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+<footer>
+
+<div class="footer">
+  <ul class="menu">
+    
+    <li><a href="/"><span data-hover="Home">Home</span></a></li>
+    
+    <li><a href="/about/"><span data-hover="About">About</span></a></li>
+    
+    <li><a href="/categories/"><span data-hover="Categories">Categories</span></a></li>
+    
+    <li><a href="/tags/"><span data-hover="Tags">Tags</span></a></li>
+    
+    <li><a href="/index.xml"><span data-hover="Subscribe">Subscribe</span></a></li>
+    
+  </ul>
+  
+  <div class="copyright">&copy; <a href="https://joeytai.github.io">Fan Yang</a> 2019 | <a href="https://github.com/joeytai">Github</a> | <a href="https://twitter.com/CaesarMatrix">Twitter</a></div>
+  
+</div>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
+

@@ -30,6 +30,234 @@
     </item>
     
     <item>
+      <title>投资相关</title>
+      <link>https://joeytai.github.io/post/2018/04/03/%E6%8A%95%E8%B5%84%E7%9B%B8%E5%85%B3/</link>
+      <pubDate>Tue, 03 Apr 2018 22:04:54 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/04/03/%E6%8A%95%E8%B5%84%E7%9B%B8%E5%85%B3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一些有趣的数据集</title>
+      <link>https://joeytai.github.io/post/2018/04/03/%E4%B8%80%E4%BA%9B%E6%9C%89%E8%B6%A3%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9B%86/</link>
+      <pubDate>Tue, 03 Apr 2018 22:00:26 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/04/03/%E4%B8%80%E4%BA%9B%E6%9C%89%E8%B6%A3%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9B%86/</guid>
+      <description>数据科学面试题库: SofaSofa.io 统计之都: cosx.org https://github.com/fivethirtyeight/data fivethirtyeight的数据集 ourworldindata数据集 http://sofasofa.io/interviews.php#tiku</description>
+    </item>
+    
+    <item>
+      <title>更换源</title>
+      <link>https://joeytai.github.io/post/2018/04/03/%E6%9B%B4%E6%8D%A2%E6%BA%90/</link>
+      <pubDate>Tue, 03 Apr 2018 22:00:10 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/04/03/%E6%9B%B4%E6%8D%A2%E6%BA%90/</guid>
+      <description>更换Anoconda源 在Ubuntu上安装了Anoconda，没想到conda install用官方的源一直安装不了包，索性换成清华的源，(A</description>
+    </item>
+    
+    <item>
+      <title>网课</title>
+      <link>https://joeytai.github.io/post/2018/04/03/%E7%BD%91%E8%AF%BE/</link>
+      <pubDate>Tue, 03 Apr 2018 21:55:48 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/04/03/%E7%BD%91%E8%AF%BE/</guid>
+      <description>这学期在跟的网课 编译原理 Programming Languages and Compilers 强推UCB的CS164，课程主页上的讲义都能凑成一本好书了. Principles and Techniques of Data Science 强推，这门课能让你迅速适应Pytho</description>
+    </item>
+    
+    <item>
+      <title>优质信息源</title>
+      <link>https://joeytai.github.io/post/2018/04/03/%E4%BC%98%E8%B4%A8%E4%BF%A1%E6%81%AF%E6%BA%90/</link>
+      <pubDate>Tue, 03 Apr 2018 21:55:23 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/04/03/%E4%BC%98%E8%B4%A8%E4%BF%A1%E6%81%AF%E6%BA%90/</guid>
+      <description>优质信息源 这篇文章比较长，读完全文大概需要10分钟。 在豆瓣上看到一篇不错的文章，在此引述过来， 昨晚看完那篇“残酷底层物语”，第一时间产生的是</description>
+    </item>
+    
+    <item>
+      <title>Ubuntuu深度体验</title>
+      <link>https://joeytai.github.io/post/2018/04/03/ubuntuu%E6%B7%B1%E5%BA%A6%E4%BD%93%E9%AA%8C/</link>
+      <pubDate>Tue, 03 Apr 2018 21:54:29 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/04/03/ubuntuu%E6%B7%B1%E5%BA%A6%E4%BD%93%E9%AA%8C/</guid>
+      <description>Ubuntu下Dr.com的安装 先上一张美化之后的图 在安装Deepin的截图工具的时候也踩了不少坑，通过Re[3]得到解决， conda install -c ska pygtk Ana</description>
+    </item>
+    
+    <item>
+      <title>hexo换电脑的麻烦</title>
+      <link>https://joeytai.github.io/post/2018/04/03/hexo%E6%8D%A2%E7%94%B5%E8%84%91%E7%9A%84%E9%BA%BB%E7%83%A6/</link>
+      <pubDate>Tue, 03 Apr 2018 21:53:58 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/04/03/hexo%E6%8D%A2%E7%94%B5%E8%84%91%E7%9A%84%E9%BA%BB%E7%83%A6/</guid>
+      <description>Reference: [1].http://dontcry2013.github.io/2016/03/02/hexo-change-workstation/ [2].https://formulahendry.github.io/2016/12/04/hexo-ci/ [3].https://www.zhihu.com/question/21193762 [4].https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04</description>
+    </item>
+    
+    <item>
+      <title>git学习笔记</title>
+      <link>https://joeytai.github.io/post/2018/04/03/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 03 Apr 2018 21:53:27 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/04/03/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>解决git pull/push每次都需要输入密码问题 如果我们git clone的下载代码的时候是连接的https://而不是git@git (ss</description>
+    </item>
+    
+    <item>
+      <title>云服务器漫谈</title>
+      <link>https://joeytai.github.io/post/2018/03/04/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%BC%AB%E8%B0%88/</link>
+      <pubDate>Sun, 04 Mar 2018 22:35:49 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/03/04/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%BC%AB%E8%B0%88/</guid>
+      <description>Reference: [1].https://zh.gluon.ai/ [2].https://discuss.gluon.ai/t/topic/790 [3].https://discuss.gluon.ai/t/topic/1409 [4].https://discuss.gluon.ai/t/topic/790</description>
+    </item>
+    
+    <item>
+      <title>云服务器漫谈</title>
+      <link>https://joeytai.github.io/post/2018/03/04/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%BC%AB%E8%B0%88/</link>
+      <pubDate>Sun, 04 Mar 2018 22:27:07 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/03/04/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%BC%AB%E8%B0%88/</guid>
+      <description>ssh -i &amp;quot;kaiseryang.pem&amp;quot; ubuntu@ec2-xx-xxx-xxx-xx.ap-southeast-1.compute.amazonaws.com ip地址用x代替 Reference: [1].https://stackoverflow.com/questions/20303826/highlight-bash-shell-code-in-markdown [2].https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/concepts.html</description>
+    </item>
+    
+    <item>
+      <title>google doc</title>
+      <link>https://joeytai.github.io/post/2018/02/19/google-doc/</link>
+      <pubDate>Mon, 19 Feb 2018 23:27:11 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/19/google-doc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vscode配置R语言开发环境</title>
+      <link>https://joeytai.github.io/post/2018/02/13/vscode%E9%85%8D%E7%BD%AEr%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Tue, 13 Feb 2018 15:48:37 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/13/vscode%E9%85%8D%E7%BD%AEr%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+      <description>用vscode写R的正确姿势 1.进入VSCode官网，下载软件 2.安装VS Code的R插件 打开设置，配置R.exe的路径 运行时ctrl + tab TODO</description>
+    </item>
+    
+    <item>
+      <title>科学上网的基本原理与技巧</title>
+      <link>https://joeytai.github.io/post/2018/02/11/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Sun, 11 Feb 2018 23:04:19 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/11/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8A%80%E5%B7%A7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R语言入门</title>
+      <link>https://joeytai.github.io/post/2018/02/10/r%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Sat, 10 Feb 2018 15:41:58 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/10/r%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>比特币入门教程</title>
+      <link>https://joeytai.github.io/post/2018/02/08/%E6%AF%94%E7%89%B9%E5%B8%81%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Thu, 08 Feb 2018 21:51:38 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/08/%E6%AF%94%E7%89%B9%E5%B8%81%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</guid>
+      <description>Reference [1] http://www.ruanyifeng.com/blog/2018/01/bitcoin-tutorial.html [2] https://blog.codingnow.com/2011/05/bitcoin.html [3] https://bitcoin.org/bitcoin.pdf [4] https://arstechnica.com/tech-policy/2017/12/how-bitcoin-works/ [5] http://www.righto.com/2014/02/bitcoins-hard-way-using-raw-bitcoin.html [6] http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html [7] https://medium.freecodecamp.org/how-does-blockchain-really-work-i-built-an-app-to-show-you-6b70cd4caf7d [8] http://www.righto.com/2014/02/bitcoin-mining-hard-way-algorithms.html [9] http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html</description>
+    </item>
+    
+    <item>
+      <title>[译]用地图呈现美国各州州长的薪水</title>
+      <link>https://joeytai.github.io/post/2018/02/08/%E8%AF%91%E7%94%A8%E5%9C%B0%E5%9B%BE%E5%91%88%E7%8E%B0%E7%BE%8E%E5%9B%BD%E5%90%84%E5%B7%9E%E5%B7%9E%E9%95%BF%E7%9A%84%E8%96%AA%E6%B0%B4/</link>
+      <pubDate>Thu, 08 Feb 2018 14:19:18 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/08/%E8%AF%91%E7%94%A8%E5%9C%B0%E5%9B%BE%E5%91%88%E7%8E%B0%E7%BE%8E%E5%9B%BD%E5%90%84%E5%B7%9E%E5%B7%9E%E9%95%BF%E7%9A%84%E8%96%AA%E6%B0%B4/</guid>
+      <description>President Trump promised that he would take no salary if elected, and thus far he has donated his compensation to worthy causes. That’s all well and good, but with the 2018 election season heating up, it got us thinking about the differences in compensation for executives at the state level. So we did a little research and created our new map of the go</description>
+    </item>
+    
+    <item>
+      <title>一个数据科学家的养成之路(The Way to Data Scientist)</title>
+      <link>https://joeytai.github.io/post/2018/02/07/%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%9A%84%E5%85%BB%E6%88%90%E4%B9%8B%E8%B7%AFthe-way-to-data-scientist/</link>
+      <pubDate>Wed, 07 Feb 2018 22:07:13 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/07/%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%9A%84%E5%85%BB%E6%88%90%E4%B9%8B%E8%B7%AFthe-way-to-data-scientist/</guid>
+      <description>MIT [ ] 6.S094 Deep Learning for Self-Driving Cars Berkeley [ ] DS 100 Principles and Techniques of Data Science [ ] CS61C Machine Structures Standford [ ] CS61A [ ] CS231n Convolutional Neural Network for Visual Recongnition Harvard [ ] CS 109 Data Science Columbia Applied Data Science 延伸阅读(强烈推荐) [ ] 50 Years of Data Science [ ] 一套</description>
+    </item>
+    
+    <item>
+      <title>剧集推荐</title>
+      <link>https://joeytai.github.io/post/2018/02/07/%E5%89%A7%E9%9B%86%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Wed, 07 Feb 2018 20:17:32 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/07/%E5%89%A7%E9%9B%86%E6%8E%A8%E8%8D%90/</guid>
+      <description>剧集推荐 电视剧 武林外传 老友记 疑犯追踪 东北一家人 地下交通站 [ ] 动画 [ ] 我为歌狂 [ ] 围棋少年 [ ] 电影 [ ] 天堂电影院 [ ] 西西里的美丽传说 [ ] 末代皇</description>
+    </item>
+    
+    <item>
+      <title>Lambda Exspression in Python</title>
+      <link>https://joeytai.github.io/post/2018/02/07/lambda-exspression-in-python/</link>
+      <pubDate>Wed, 07 Feb 2018 19:37:53 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/07/lambda-exspression-in-python/</guid>
+      <description>Lambda Exspression in Python import time start = time.clock() fib=lambda n,x=0,y=1:x if not n else fib(n-1,y,x+y) print (fib(20)) end = time.clock() print (&amp;quot;read: %f s&amp;quot; % (end - start)) v1 = end - start 6765 read: 0.000352 s import time start = time.clock() fib = lambda n : 1 if n &amp;lt;= 2 else fib(n-1) + fib(n-2) print (fib(20)) end = time.clock() print (&amp;quot;read: %f s&amp;quot; % (end - start))</description>
+    </item>
+    
+    <item>
+      <title>利器</title>
+      <link>https://joeytai.github.io/post/2018/02/06/%E5%88%A9%E5%99%A8/</link>
+      <pubDate>Tue, 06 Feb 2018 23:04:19 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/06/%E5%88%A9%E5%99%A8/</guid>
+      <description>去年在网上游荡时发现一网站，名曰“利器”.正如其名，网站主要时分享一些超赞的生产力工具 Jeff Dean1 更新日志 2018年2月6日 写出全文，并发布 https://usesthis.com/interviews/jeff.dean/ ↩</description>
+    </item>
+    
+    <item>
+      <title>寒假需要学习的课程</title>
+      <link>https://joeytai.github.io/post/2018/02/06/%E5%AF%92%E5%81%87%E9%9C%80%E8%A6%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E8%AF%BE%E7%A8%8B/</link>
+      <pubDate>Tue, 06 Feb 2018 23:03:35 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/06/%E5%AF%92%E5%81%87%E9%9C%80%E8%A6%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E8%AF%BE%E7%A8%8B/</guid>
+      <description>更新日志 2018年2月7日 写出全文，并发布</description>
+    </item>
+    
+    <item>
+      <title>巴菲特的投资哲学</title>
+      <link>https://joeytai.github.io/post/2018/02/06/%E5%B7%B4%E8%8F%B2%E7%89%B9%E7%9A%84%E6%8A%95%E8%B5%84%E5%93%B2%E5%AD%A6/</link>
+      <pubDate>Tue, 06 Feb 2018 15:54:36 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/06/%E5%B7%B4%E8%8F%B2%E7%89%B9%E7%9A%84%E6%8A%95%E8%B5%84%E5%93%B2%E5%AD%A6/</guid>
+      <description>巴菲特的投资哲学 价值投资就像赌马，如果你赌的永远是赔率最高的马，那你没机会赚大钱，你唯一能做的是在别人标错赔率的情况下下重注。而巴菲特和芒格</description>
+    </item>
+    
+    <item>
+      <title>一个考据党的自我修养</title>
+      <link>https://joeytai.github.io/post/2018/02/06/%E4%B8%80%E4%B8%AA%E8%80%83%E6%8D%AE%E5%85%9A%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/</link>
+      <pubDate>Tue, 06 Feb 2018 15:53:38 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/02/06/%E4%B8%80%E4%B8%AA%E8%80%83%E6%8D%AE%E5%85%9A%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/</guid>
+      <description>论语有言，工欲善其事，必先利其器。所以我罗列了我在搜集资料时的一些工具。 Evernote [ ] 更新日志 2018年2月5日 写出全文，并发布</description>
+    </item>
+    
+    <item>
+      <title>PotPlayer皮肤分享</title>
+      <link>https://joeytai.github.io/post/2018/01/25/potplayer%E7%9A%AE%E8%82%A4%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Thu, 25 Jan 2018 19:57:43 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2018/01/25/potplayer%E7%9A%AE%E8%82%A4%E5%88%86%E4%BA%AB/</guid>
+      <description>PotPlayer是什么 PotPlayer（韩语：팟플레이어），是KMPlayer的原作者姜勇囍进入Daum公司后的新一代作品，目前仍有更新</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://joeytai.github.io/post/2017/12/31/hello-world/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://joeytai.github.io/post/2017/12/31/hello-world/</guid>
+      <description>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick Start Create a new post $ hexo new &amp;quot;My New Post&amp;quot;  More info: Writing
+Run server $ hexo server  More info: Server
+Generate static files $ hexo generate  More info: Generating</description>
+    </item>
+    
+    <item>
       <title>A Plain Markdown Post</title>
       <link>https://joeytai.github.io/post/2017/02/14/a-plain-markdown-post/</link>
       <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
@@ -114,7 +342,7 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
       <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://joeytai.github.io/post/2015/07/24/my-workflow-of-2019/</guid>
-      <description></description>
+      <description>之前写代码一直用的我的T440s，但是在Win10环境下开发有诸多不便，之后又装了Ubuntu16.04，开发是方便了，但是Linux之下一</description>
     </item>
     
     <item>
