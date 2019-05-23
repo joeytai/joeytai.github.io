@@ -69,8 +69,19 @@
 <main>
 <p>之前写代码一直用的我的T440s，但是在Win10环境下开发有诸多不便，之后又装了Ubuntu16.04，开发是方便了，但是Linux之下一些日常软件又没有，平时与同学沟通，接收学校消息需要Tim和微信，虽然Deepin有相关的包，但是几经配置过于麻烦，遂放弃。
 2018年中，薅了腾讯云羊毛，360开了6年的服务器，配置是1核1G成都，之前为了建模比赛装了Anaconda，比赛完了就一直闲置，刚好萌生一个想法，把闲置服务器利用起来，配合Xshell使用。
-整个流程是这样的，
-<img src="https://github.com/joeytai/PicArchive/blob/master/2019-01-27_18-17-17.png" alt="" /></p>
+整个流程是这样的，</p>
+
+<pre><code class="language-sh">hugo --theme=hugo-xmag --buildDrafts --baseUrl=&quot;https://joeytai.github.io&quot;
+DIR=./public/
+cd $DIR
+
+git add .
+git commit -m &quot;add file&quot;
+git push -u origin master
+
+</code></pre>
+
+<p><img src="https://github.com/joeytai/PicArchive/blob/master/2019-01-27_18-17-17.png" alt="" /></p>
 
 </main>
 
@@ -122,7 +133,17 @@
 </footer>
 
 
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script>
+hljs.configure({languages: []});
+hljs.initHighlightingOnLoad();
+</script>
 
 
 
